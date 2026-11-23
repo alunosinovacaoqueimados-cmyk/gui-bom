@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de cursos online e capacitação profissional.">
+    <title>Academia Digital | Aprenda e evolua</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav-container">
+        <a href="#" class="logo" onclick="showHome(); return false;">
+            <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i> A</span>
+            <span>Academia<span class="logo-blue">Digital</span></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#" onclick="showHome(); return false;">Início</a>
+            <a href="#cursos" onclick="showHome();">Cursos</a>
+            <a href="#sobre" onclick="showAbout(); return false;">Sobre</a>
+        </nav>
+
+        <div class="nav-actions" id="navActions">
+            <button class="btn btn-outline" onclick="openAuth('login')">Entrar</button>
+            <button class="btn btn-primary" onclick="openAuth('register')">Criar conta</button>
+        </div>
+
+        <button class="mobile-menu" onclick="toggleMenu()" aria-label="Abrir menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<main id="mainContent">
+
+    <!-- INÍCIO -->
+    <section id="homePage">
+
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> SEU FUTURO COMEÇA AQUI</span>
+
+                    <h1>Conhecimento que transforma. <span>Oportunidades que começam com você.</span></h1>
+
+                    <p>
+                        Desenvolva novas habilidades, aprenda no seu ritmo
+                        e conquiste certificados com cursos práticos e acessíveis.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large" onclick="scrollCourses()">
+                            Explorar cursos <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-white btn-large" onclick="openAuth('register')">
+                            Começar agora
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div><strong>10</strong><span>Cursos disponíveis</span></div>
+                        <div><strong>30h+</strong><span>De aprendizado</span></div>
+                        <div><strong>100%</strong><span>Online</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-decoration decoration-one"></div>
+                    <div class="hero-decoration decoration-two"></div>
+
+                    <div class="learning-card">
+                        <div class="learning-top">
+                            <span class="learning-icon"><i class="fa-solid fa-book-open"></i></span>
+                            <span class="status-tag">Aprenda no seu ritmo</span>
+                        </div>
+
+                        <h3>Seu próximo passo começa com aprendizado.</h3>
+                        <p>Pequenas aulas. Grandes conquistas.</p>
+
+                        <div class="fake-progress">
+                            <div><span>Seu desenvolvimento</span><strong>75%</strong></div>
+                            <div class="progress-track"><span style="width:75%"></span></div>
+                        </div>
+
+                        <div class="learning-bottom">
+                            <div class="avatar-stack">
+                                <span>A</span><span>B</span><span>C</span>
+                            </div>
+                            <span>Aprenda todos os dias</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card">
+                        <span class="floating-icon"><i class="fa-solid fa-award"></i></span>
+                        <div><strong>Seu certificado</strong><small>Uma conquista de cada vez</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container benefits-grid">
+                <div class="benefit">
+                    <span><i class="fa-solid fa-clock"></i></span>
+                    <div><strong>Aulas rápidas</strong><small>Aprenda sem complicação</small></div>
+                </div>
+                <div class="benefit">
+                    <span><i class="fa-solid fa-laptop"></i></span>
+                    <div><strong>100% online</strong><small>Estude de onde estiver</small></div>
+                </div>
+                <div class="benefit">
+                    <span><i class="fa-solid fa-certificate"></i></span>
+                    <div><strong>Certificados</strong><small>Comprove seu aprendizado</small></div>
+                </div>
+                <div class="benefit">
+                    <span><i class="fa-solid fa-chart-line"></i></span>
+                    <div><strong>Seu progresso</strong><small>Acompanhe sua evolução</small></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section courses-section" id="cursos">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">APRENDA ALGO NOVO</span>
+                        <h2>Explore nossos cursos</h2>
+                        <p>Conhecimentos que fazem a diferença na sua vida profissional.</p>
+                    </div>
+                    <span class="course-counter" id="courseCounter">10 cursos</span>
+                </div>
+
+                <div class="course-toolbar">
+                    <div class="search-box">
+                        <i class="fa-solid fa-search"></i>
+                        <input type="search" id="courseSearch" placeholder="O que você deseja aprender?">
+                    </div>
+                    <select id="categoryFilter" aria-label="Filtrar categoria">
+                        <option value="todos">Todas as categorias</option>
+                        <option value="Tecnologia">Tecnologia</option>
+                        <option value="Negócios">Negócios</option>
+                        <option value="Finanças">Finanças</option>
+                        <option value="Carreira">Carreira</option>
+                    </select>
+                </div>
+
+                <div class="courses-grid" id="coursesGrid">
+                    <div class="loading">Carregando cursos...</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="aboutSection">
+            <div class="container about-grid">
+                <div>
+                    <span class="eyebrow">NOSSA PROPOSTA</span>
+                    <h2>Aprender pode ser mais simples do que você imagina.</h2>
+                    <p>
+                        A Academia Digital acredita que o conhecimento deve ser
+                        acessível. Por isso, oferecemos conteúdos objetivos,
+                        aulas curtas, materiais de apoio e atividades práticas.
+                    </p>
+                    <button class="btn btn-primary" onclick="scrollCourses()">Conhecer cursos</button>
+                </div>
+                <div class="about-feature">
+                    <div><i class="fa-solid fa-play"></i><strong>Vídeos curtos</strong><small>Conteúdos objetivos e fáceis de acompanhar.</small></div>
+                    <div><i class="fa-solid fa-file-lines"></i><strong>Materiais escritos</strong><small>Textos para revisar o que você aprendeu.</small></div>
+                    <div><i class="fa-solid fa-circle-check"></i><strong>Atividades práticas</strong><small>Questões para testar seu conhecimento.</small></div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- PÁGINA DO CURSO -->
+    <section id="coursePage" class="hidden">
+        <div class="container course-detail">
+            <button class="back-button" onclick="showHome()">
+                <i class="fa-solid fa-arrow-left"></i> Voltar aos cursos
+            </button>
+            <div id="courseDetailContent"></div>
+        </div>
+    </section>
+
+    <!-- ÁREA DE AULA -->
+    <section id="lessonPage" class="hidden">
+        <div class="container lesson-layout">
+            <div class="lesson-main">
+                <button class="back-button" onclick="returnToCourse()">
+                    <i class="fa-solid fa-arrow-left"></i> Voltar ao curso
+                </button>
+                <div id="lessonContent"></div>
+            </div>
+            <aside class="lesson-sidebar">
+                <h3>Conteúdo do curso</h3>
+                <div id="lessonList"></div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- PAINEL DO ALUNO -->
+    <section id="dashboardPage" class="hidden">
+        <div class="container dashboard">
+            <div class="dashboard-heading">
+                <div>
+                    <span class="eyebrow">ÁREA DO ALUNO</span>
+                    <h1>Olá, <span id="studentName">estudante</span>!</h1>
+                    <p>Continue sua jornada de aprendizado.</p>
+                </div>
+                <button class="btn btn-outline" onclick="logout()">Sair da conta</button>
+            </div>
+
+            <div class="dashboard-stats">
+                <div class="stat-card"><span><i class="fa-solid fa-book"></i></span><strong id="statCourses">0</strong><small>Cursos iniciados</small></div>
+                <div class="stat-card"><span><i class="fa-solid fa-star"></i></span><strong id="statXP">0</strong><small>Pontos de XP</small></div>
+                <div class="stat-card"><span><i class="fa-solid fa-certificate"></i></span><strong id="statCertificates">0</strong><small>Certificados</small></div>
+            </div>
+
+            <div class="dashboard-block">
+                <h2>Meus cursos</h2>
+                <div id="myCourses" class="my-courses"></div>
+            </div>
+
+            <div class="dashboard-block">
+                <h2>Meus certificados</h2>
+                <div id="myCertificates" class="my-certificates"></div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- MODAL DE LOGIN E CADASTRO -->
+<div class="modal-overlay hidden" id="authModal">
+    <div class="modal">
+        <button class="modal-close" onclick="closeAuth()"><i class="fa-solid fa-xmark"></i></button>
+        <div class="modal-brand"><span class="logo-icon">A</span> Academia Digital</div>
+
+        <div id="loginForm">
+            <h2>Bem-vindo de volta!</h2>
+            <p>Entre para continuar seus estudos.</p>
+            <form onsubmit="login(event)">
+                <label>E-mail</label>
+                <input type="email" id="loginEmail" placeholder="seuemail@email.com" required>
+                <label>Senha</label>
+                <input type="password" id="loginPassword" placeholder="Sua senha" required>
+                <button class="btn btn-primary btn-block">Entrar na plataforma</button>
+            </form>
+            <p class="auth-switch">Ainda não tem conta? <a onclick="switchAuth('register')">Cadastre-se</a></p>
+        </div>
+
+        <div id="registerForm" class="hidden">
+            <h2>Crie sua conta</h2>
+            <p>Comece sua jornada de aprendizado.</p>
+            <form onsubmit="register(event)">
+                <label>Nome completo</label>
+                <input type="text" id="registerName" placeholder="Seu nome completo" required minlength="3">
+                <label>E-mail</label>
+                <input type="email" id="registerEmail" placeholder="seuemail@email.com" required>
+                <label>Senha</label>
+                <input type="password" id="registerPassword" placeholder="Mínimo de 6 caracteres" required minlength="6">
+                <button class="btn btn-primary btn-block">Criar minha conta</button>
+            </form>
+            <p class="auth-switch">Já tem uma conta? <a onclick="switchAuth('login')">Entrar</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- AVISOS -->
+<div id="toast" class="toast"></div>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#" class="logo footer-logo" onclick="showHome(); return false;">
+            <span class="logo-icon">A</span> Academia<span class="logo-blue">Digital</span>
+        </a>
+        <p>Educação que abre caminhos.</p>
+        <small>© 2026 Academia Digital. Projeto demonstrativo.</small>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

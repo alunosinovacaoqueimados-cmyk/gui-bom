@@ -1,0 +1,513 @@
+
+{
+  "cursos": [
+    {
+      "id": 1,
+      "titulo": "Informática Básica",
+      "categoria": "Tecnologia",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Aprenda os fundamentos da informática, computadores, internet e ferramentas digitais.",
+      "imagem": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
+      "modulos": [
+        {
+          "titulo": "Primeiros passos na informática",
+          "aulas": [
+            {
+              "titulo": "O que é informática?",
+              "duracao": "4 min",
+              "video": "https://www.youtube.com/watch?v=9fNHAD7ZDL4&list=PL-QAz5R5Rlm7wn20xLTIr84gbS2XkzqEZ&index=1",
+              "texto": "A informática reúne conhecimentos e ferramentas usados para receber, processar, armazenar e compartilhar informações com computadores e outros dispositivos. Ela está presente em tarefas cotidianas, como escrever um documento, pesquisar um endereço, fazer uma chamada de vídeo ou guardar fotos. Por isso, aprender informática ajuda a usar a tecnologia com mais autonomia.\n\nEm um processo simples, uma pessoa fornece dados por meio do teclado ou de outro dispositivo; o computador processa esses dados seguindo instruções de programas e apresenta um resultado na tela ou o salva em um arquivo. Conhecer esses fundamentos também ajuda a identificar qual ferramenta usar em cada situação e a cuidar melhor das informações digitais.",
+              "pergunta": "O que é informática?",
+              "opcoes": ["Estudo do processamento de informações usando tecnologia", "Somente conserto de celulares", "Uma rede social"],
+              "resposta": 0,
+              "explicacao": "Correto! A informática envolve o uso de computadores e tecnologias para processar informações."
+            },
+            {
+              "titulo": "Conhecendo o computador",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=w57-Xl5jZ2o&list=PL-QAz5R5Rlm7wn20xLTIr84gbS2XkzqEZ&index=2",
+              "texto": "O computador combina hardware, que são as partes físicas, e software, que são os programas e as instruções usadas para realizar tarefas. Monitor, teclado e mouse são periféricos: o monitor exibe informações, enquanto teclado e mouse permitem inserir comandos. Outros periféricos, como impressora, webcam e fone de ouvido, ampliam as formas de entrada e saída de dados.\n\nDentro do computador, o processador executa instruções e coordena operações. A memória RAM guarda temporariamente os dados dos programas em uso, enquanto o armazenamento (HD ou SSD) mantém arquivos mesmo depois que o aparelho é desligado. Esses componentes trabalham em conjunto; por isso, travamentos ou lentidão podem ter causas diferentes. Identificar cada parte é um primeiro passo para usar o equipamento e pedir ajuda de forma mais precisa.",
+              "pergunta": "Qual componente executa as instruções do computador?",
+              "opcoes": ["Monitor", "Processador", "Mouse"],
+              "resposta": 1,
+              "explicacao": "O processador executa instruções e realiza operações necessárias para o funcionamento do computador."
+            }
+          ]
+        },
+        {
+          "titulo": "Internet e ferramentas digitais",
+          "aulas": [
+            {
+              "titulo": "Como funciona a internet?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=LSZCkC0k93s&list=PL-QAz5R5Rlm7wn20xLTIr84gbS2XkzqEZ&index=3",
+              "texto": "A internet é uma rede mundial de redes que permite que dispositivos troquem dados. Em casa, celular e computador podem se conectar ao roteador por Wi-Fi; o provedor de internet liga essa rede local a outras redes. Quando você acessa um site, o navegador solicita os dados ao servidor correspondente e organiza o conteúdo para exibi-lo. A internet também possibilita mensagens, chamadas, vídeos, serviços bancários e acesso a materiais de estudo.\n\nA web (sites e páginas acessados pelo navegador) é apenas um dos serviços que usam a internet. Para pesquisar, vale escolher palavras específicas e comparar fontes, observando autoria, data e evidências. Como os dados circulam entre dispositivos, prefira conexões confiáveis, mantenha programas atualizados e não compartilhe senhas ou informações pessoais em páginas suspeitas.",
+              "pergunta": "Qual é uma função da internet?",
+              "opcoes": ["Conectar dispositivos e compartilhar informações", "Substituir o computador", "Aumentar o tamanho da tela"],
+              "resposta": 0,
+              "explicacao": "A internet conecta dispositivos e permite a comunicação e o compartilhamento de informações."
+            },
+            {
+              "titulo": "Como aprender Excel do zero",
+              "duracao": "12 min",
+              "video": "https://www.youtube.com/watch?v=QQhXangMDNA",
+              "texto": "O Excel é uma ferramenta usada para organizar dados em planilhas formadas por linhas e colunas. Cada quadro dessa grade é chamado de célula e pode receber textos, números, datas ou fórmulas. Começar aprendendo o ambiente do programa é essencial: identifique a barra de fórmulas, as abas da faixa de opções, o nome das folhas e as referências das células, como A1 ou C5.\n\nA primeira etapa prática é inserir e editar dados. Mantenha um padrão em cada coluna, por exemplo, uma coluna para datas, outra para nomes e outra para valores. Use a barra de fórmulas para calcular resultados; toda fórmula deve começar com o sinal de igual. Funções como SOMA permitem somar um intervalo de dados, enquanto a formatação ajuda a apresentar números, moedas e datas de maneira correta.\n\nÀ medida que o domínio da ferramenta aumenta, é possível aprender filtros e tabelas para localizar registros, gráficos para visualizar tendências e funções como MÉDIA, MÍNIMO e MÁXIMO. Pratique com uma planilha simples para registrar despesas ou produtos. Observe também a diferença entre copiar dados e copiar fórmulas: as referências podem mudar para acompanhar o novo local. Para aprender com segurança, salve o arquivo regularmente, confirme intervalos das fórmulas e teste os resultados com valores conhecidos.",
+              "pergunta": "Como os dados são organizados no Excel?",
+              "opcoes": ["Em linhas e colunas", "Somente em apresentações", "Apenas em arquivos de texto"],
+              "resposta": 0,
+              "explicacao": "No Excel, os dados são organizados em células, linhas e colunas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Conhecendo a Inteligência Artificial",
+      "categoria": "Tecnologia",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Entenda o que é inteligência artificial e conheça ferramentas que podem facilitar sua rotina.",
+      "imagem": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+      "modulos": [
+        {
+          "titulo": "Introdução à inteligência artificial",
+          "aulas": [
+            {
+              "titulo": "O que é inteligência artificial?",
+              "duracao": "4 min",
+              "video": "https://www.youtube.com/watch?v=UhA_ZgI-otM",
+              "texto": "Inteligência artificial (IA) é uma área da computação que cria sistemas capazes de executar tarefas que costumam exigir habilidades humanas, como reconhecer elementos em imagens, interpretar linguagem ou identificar padrões em dados. Em geral, esses sistemas recebem informações, aplicam métodos e regras aprendidos ou programados e produzem uma classificação, previsão ou resposta. Filtros de spam e recomendações de filmes são exemplos de aplicações presentes no cotidiano.\n\nA IA não pensa nem compreende o mundo como uma pessoa: seus resultados dependem dos dados, do objetivo e do projeto do sistema. Por isso, pode cometer erros ou reproduzir limitações dos dados usados para desenvolvê-la. Em atividades importantes, é necessário conferir o resultado, considerar o contexto e usar julgamento humano, em vez de tratar a resposta automática como verdade garantida.",
+              "pergunta": "Qual alternativa representa uma aplicação de IA?",
+              "opcoes": ["Reconhecimento de imagens", "Uma cadeira comum", "Um caderno de papel"],
+              "resposta": 0,
+              "explicacao": "Sistemas de IA podem analisar imagens e identificar objetos, pessoas e padrões."
+            },
+            {
+              "titulo": "Como funciona a IA generativa?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=Lhu8bdmkMCM",
+              "texto": "A IA generativa é um tipo de inteligência artificial que cria conteúdos, como textos, imagens, sons e trechos de código, a partir de instruções. Durante o treinamento, o modelo aprende padrões presentes em muitos exemplos; ao receber um pedido, calcula uma sequência provável de elementos para compor uma resposta. Ela pode ajudar a resumir um assunto, sugerir ideias ou produzir um rascunho, mas isso não significa que esteja consultando uma fonte confiável em cada resposta.\n\nO conteúdo gerado pode conter imprecisões, informações desatualizadas ou referências inexistentes. Use a ferramenta como apoio: revise o material, confirme dados importantes em fontes confiáveis e adapte o resultado ao seu objetivo. Também respeite direitos autorais e regras do seu trabalho ou instituição e evite inserir dados pessoais, senhas ou informações confidenciais.",
+              "pergunta": "O que uma IA generativa consegue fazer?",
+              "opcoes": ["Criar textos e imagens", "Somente desligar computadores", "Substituir todas as pessoas"],
+              "resposta": 0,
+              "explicacao": "A IA generativa pode produzir conteúdos novos a partir de instruções."
+            }
+          ]
+        },
+        {
+          "titulo": "Utilizando ferramentas de IA",
+          "aulas": [
+            {
+              "titulo": "Como criar ótimos prompts na prática",
+              "duracao": "10 min",
+              "video": "https://www.youtube.com/watch?v=xA7PdN_mLJ8",
+              "texto": "Um prompt é a instrução que orienta uma ferramenta de inteligência artificial. Para obter uma resposta útil, comece definindo claramente o que você quer alcançar. Acrescente o contexto necessário, como o público, o assunto e a situação em que o conteúdo será usado. Pedidos vagos deixam muitas decisões em aberto; detalhes relevantes ajudam a IA a entender melhor a tarefa.\n\nIndique também como você quer receber a resposta: por exemplo, em uma lista, tabela, resumo ou roteiro, e especifique o tom e o nível de linguagem. Você pode pedir à IA que assuma um papel relacionado à tarefa, como tutor ou revisor, sem esquecer que isso não garante que as informações estejam corretas. Se houver limites importantes, como tamanho, prazo ou tópicos a incluir, informe-os diretamente.\n\nRevise a resposta e refine o prompt em etapas. Se o resultado não atender ao objetivo, explique o que deve mudar, peça exemplos ou divida uma tarefa complexa em partes menores. Sempre confira fatos importantes em fontes confiáveis e não envie senhas, dados pessoais ou informações confidenciais. Um bom prompt orienta o trabalho, mas a avaliação final continua sendo sua.",
+              "pergunta": "Qual prática ajuda a criar um prompt mais eficaz?",
+              "opcoes": ["Informar objetivo, contexto e formato esperado", "Escrever apenas uma palavra sem explicar a tarefa", "Compartilhar dados confidenciais para obter respostas mais detalhadas"],
+              "resposta": 0,
+              "explicacao": "Um objetivo claro, contexto relevante e formato esperado ajudam a IA a produzir uma resposta mais adequada. Informações confidenciais não devem ser incluídas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Marketing Digital",
+      "categoria": "Negócios",
+      "duracao": "4h",
+      "nivel": "Iniciante",
+      "descricao": "Aprenda a divulgar produtos, criar conteúdos e conquistar clientes pela internet.",
+      "imagem": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+      "modulos": [
+        {
+          "titulo": "Fundamentos do marketing",
+          "aulas": [
+            {
+              "titulo": "O que é marketing digital?",
+              "duracao": "4 min",
+              "video": "https://www.youtube.com/watch?v=emtfheMpOkU&list=PL-QAz5R5Rlm7cFW_3DNEYf94dp69hcjqj&index=1",
+              "texto": "Marketing digital é o planejamento de ações para apresentar uma marca, produto ou serviço em canais digitais e construir relacionamento com o público. Redes sociais, mecanismos de busca, sites, aplicativos e e-mail são alguns desses canais. A escolha depende do objetivo: uma empresa pode querer tornar sua marca conhecida, atrair pessoas para uma página, receber pedidos ou manter clientes informados.\n\nUma estratégia começa com uma proposta clara: o que é oferecido, para quem e por que isso pode ser útil. Em seguida, a empresa escolhe canais e conteúdos adequados, define como acompanhar os resultados e ajusta as ações com base no que aprende. Curtidas e visualizações não são os únicos indicadores; visitas, contatos, vendas e satisfação também podem ser relevantes. A comunicação deve ser verdadeira e respeitar a privacidade do público.",
+              "pergunta": "Qual é um canal de marketing digital?",
+              "opcoes": ["Instagram", "Somente panfletos impressos", "Quadro de avisos"],
+              "resposta": 0,
+              "explicacao": "O Instagram é uma plataforma que empresas utilizam para divulgar produtos e conversar com clientes."
+            },
+            {
+              "titulo": "Conhecendo o público-alvo",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=DFUAdPd4T5Y&list=PL-QAz5R5Rlm7cFW_3DNEYf94dp69hcjqj&index=2",
+              "texto": "Público-alvo é o conjunto de pessoas para quem uma oferta ou comunicação é planejada. Para descrevê-lo, considere necessidades, interesses, hábitos de compra, localização e situações que levam essas pessoas a procurar uma solução. Uma loja de material escolar, por exemplo, pode atender estudantes, responsáveis e escolas, mas cada grupo tem prioridades e períodos de compra diferentes.\n\nConhecer o público ajuda a escolher linguagem, canais, produtos e horários de comunicação mais adequados; não serve para presumir que todas as pessoas são iguais. Converse com clientes, observe dúvidas frequentes e analise dados obtidos de forma responsável. Depois, teste uma mensagem e verifique se ela foi compreendida e gerou o resultado esperado. Essas observações permitem melhorar as campanhas sem desperdiçar recursos em comunicações genéricas.",
+              "pergunta": "Por que identificar o público-alvo?",
+              "opcoes": ["Para direcionar melhor as campanhas", "Para evitar conhecer os clientes", "Para deixar de divulgar produtos"],
+              "resposta": 0,
+              "explicacao": "Conhecer o público ajuda a criar mensagens mais relevantes para os possíveis clientes."
+            }
+          ]
+        },
+        {
+          "titulo": "Redes sociais e vendas",
+          "aulas": [
+            {
+              "titulo": "Como divulgar uma empresa?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=iS6zXtQMdVo&list=PL-QAz5R5Rlm7cFW_3DNEYf94dp69hcjqj&index=3",
+              "texto": "Para divulgar uma empresa, comece apresentando com clareza o que ela oferece, para quem e como a pessoa pode comprar ou tirar dúvidas. Fotos nítidas, vídeos curtos, demonstrações e explicações úteis ajudam o público a entender o produto; as imagens devem corresponder ao que será entregue. Inclua informações práticas, como preço ou formas de consulta, condições, localização e horários de atendimento, quando aplicável.\n\nEscolha as redes sociais em que seus clientes realmente estão e mantenha uma frequência de publicação que possa ser sustentada. Responda com educação, confirme informações antes de prometer algo e encaminhe reclamações para uma solução adequada. Acompanhe quais conteúdos geram conversas, visitas ou pedidos e ajuste o planejamento. Publicar muito não garante resultado: relevância, confiança e bom atendimento fortalecem a presença digital no longo prazo.",
+              "pergunta": "Qual estratégia pode ajudar uma empresa nas redes sociais?",
+              "opcoes": ["Publicar conteúdos relevantes", "Ignorar os clientes", "Publicar informações falsas"],
+              "resposta": 0,
+              "explicacao": "Conteúdos relevantes ajudam a atrair e manter o interesse do público."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Empreendedorismo",
+      "categoria": "Negócios",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Descubra como transformar ideias em negócios e desenvolver uma mentalidade empreendedora.",
+      "imagem": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800",
+      "modulos": [
+        {
+          "titulo": "Começando a empreender",
+          "aulas": [
+            {
+              "titulo": "O que é empreendedorismo?",
+              "duracao": "4 min",
+              "video": "https://www.youtube.com/watch?v=TBkZGW0G8RY&list=PLhbXPP2_5r7RaJmllgDIUvVwDxa9a6Kdg&index=1",
+              "texto": "Empreender é identificar uma necessidade ou oportunidade e organizar recursos para criar uma solução que gere valor para outras pessoas. Isso pode significar abrir uma empresa, trabalhar por conta própria ou propor uma melhoria dentro de uma organização. Uma boa ideia é apenas o começo: é preciso entender quem será atendido, como a solução funcionará e quais recursos serão necessários.\n\nO trabalho envolve tomar decisões, testar hipóteses, aprender com o retorno dos clientes e adaptar o plano. Empreender também inclui avaliar riscos, custos, obrigações e capacidade de execução; não há garantia de sucesso ou lucro imediato. Começar com uma versão simples da solução pode ajudar a descobrir se existe interesse antes de investir mais. Registrar aprendizados e definir próximos passos torna o processo mais consciente.",
+              "pergunta": "O que caracteriza o empreendedorismo?",
+              "opcoes": ["Identificar oportunidades e criar soluções", "Evitar qualquer planejamento", "Copiar negócios sem analisar o mercado"],
+              "resposta": 0,
+              "explicacao": "Empreender envolve reconhecer oportunidades e transformá-las em soluções."
+            },
+            {
+              "titulo": "Como encontrar uma oportunidade?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=9X9tMIyAtT8&list=PLhbXPP2_5r7RaJmllgDIUvVwDxa9a6Kdg&index=2",
+              "texto": "Oportunidades podem aparecer quando pessoas enfrentam um problema frequente, têm uma necessidade pouco atendida ou encontram dificuldade para acessar uma solução existente. Observe situações do cotidiano e converse com possíveis clientes para entender o que fazem hoje, o que é frustrante e quanto essa questão importa para eles. Uma reclamação isolada pode ser uma pista, mas não prova que muitas pessoas pagarão por uma solução.\n\nAnote as hipóteses e procure evidências: quem tem o problema, com que frequência ele ocorre e quais alternativas já são usadas? Depois, imagine uma solução pequena e teste-a com poucas pessoas, pedindo opiniões sinceras. Considere também custos, concorrentes, regras aplicáveis e recursos disponíveis. Esse processo ajuda a diferenciar uma ideia interessante de uma oportunidade viável e a aprimorá-la antes de assumir compromissos maiores.",
+              "pergunta": "Onde podem surgir ideias de negócios?",
+              "opcoes": ["Na identificação de necessidades das pessoas", "Somente em grandes empresas", "Apenas em outros países"],
+              "resposta": 0,
+              "explicacao": "Problemas e necessidades podem revelar oportunidades de negócio."
+            }
+          ]
+        },
+        {
+          "titulo": "Planejamento do negócio",
+          "aulas": [
+            {
+              "titulo": "Por que planejar?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=wcb7V6dmXk4&list=PLhbXPP2_5r7RaJmllgDIUvVwDxa9a6Kdg&index=3",
+              "texto": "Planejar é definir aonde se quer chegar e organizar ações e recursos para avançar. Um plano inicial pode registrar o problema que o negócio resolve, o perfil dos clientes, a oferta, os canais de venda, os custos previstos e as responsabilidades de cada pessoa. Divida objetivos amplos em tarefas com prazos e indicadores simples, como número de contatos realizados ou despesas do mês.\n\nAs estimativas são hipóteses, não garantias. Compare o que foi planejado com os resultados reais e atualize o plano quando surgirem informações novas. Reserve atenção para riscos, obrigações legais e necessidade de caixa, além das oportunidades de crescimento. Um planejamento útil não precisa ser complicado: ele deve apoiar decisões, indicar prioridades e permitir que a equipe perceba cedo quando é preciso ajustar o caminho.",
+              "pergunta": "Qual é uma vantagem do planejamento?",
+              "opcoes": ["Organizar objetivos e recursos", "Eliminar todos os riscos", "Garantir lucro imediato"],
+              "resposta": 0,
+              "explicacao": "Planejar ajuda a organizar o negócio, embora não elimine todos os riscos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Ciclo de Caixa e Gestão Financeira",
+      "categoria": "Finanças",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Aprenda a controlar entradas, saídas, capital de giro e fluxo de caixa.",
+      "imagem": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
+      "modulos": [
+        {
+          "titulo": "Entendendo o dinheiro da empresa",
+          "aulas": [
+            {
+              "titulo": "O que é fluxo de caixa?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=T-FCgOYwXcs&t=54s",
+              "texto": "Fluxo de caixa é o registro das entradas e saídas de dinheiro em um período. Entradas podem incluir vendas recebidas e pagamentos de clientes; saídas podem incluir aluguel, salários, compras e tributos. Registre cada movimentação com data, valor, descrição e situação (prevista ou realizada), mantendo comprovantes para facilitar a conferência. Separar o dinheiro pessoal do dinheiro da empresa também torna os registros mais claros.\n\nAo comparar o saldo inicial, as entradas e as saídas, é possível estimar quanto haverá disponível em cada data e antecipar períodos apertados. Uma venda parcelada, por exemplo, pode ser registrada hoje, mas o dinheiro só entrar nos meses seguintes. Atualize o controle com frequência e compare a previsão com o que realmente ocorreu. O fluxo de caixa apoia decisões e pagamentos, mas não substitui a análise de lucro, custos ou outras obrigações do negócio.",
+              "pergunta": "O que o fluxo de caixa registra?",
+              "opcoes": ["Entradas e saídas de dinheiro", "Somente os funcionários", "Apenas os produtos vendidos"],
+              "resposta": 0,
+              "explicacao": "O fluxo de caixa acompanha todo o dinheiro que entra e sai da empresa."
+            },
+            {
+              "titulo": "Receitas e despesas",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=PfsO9apQy-w",
+              "texto": "Receitas são valores gerados pelas atividades do negócio, como vendas de produtos ou prestação de serviços. Despesas são gastos necessários para operar, como aluguel, energia, internet e serviços contratados. Também é importante registrar custos diretamente relacionados à produção ou à compra do que será vendido. Classificar as movimentações por categoria ajuda a entender onde o dinheiro entra e onde é utilizado.\n\nConsidere uma pequena loja: a venda de uma mercadoria é receita; o valor pago para adquirir essa mercadoria é um custo; aluguel e internet são despesas operacionais. O momento em que a venda é registrada pode diferir do recebimento do dinheiro, então o controle financeiro deve acompanhar também as datas de pagamento. Não confunda receita com lucro: para avaliar o resultado, é necessário considerar custos, despesas e o período analisado.",
+              "pergunta": "O pagamento do aluguel é classificado como:",
+              "opcoes": ["Receita", "Despesa", "Lucro"],
+              "resposta": 1,
+              "explicacao": "O aluguel é um gasto da empresa, portanto é uma despesa."
+            }
+          ]
+        },
+        {
+          "titulo": "Organização financeira",
+          "aulas": [
+            {
+              "titulo": "O que é capital de giro?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=f6HRXyj2oNc",
+              "texto": "Capital de giro é o conjunto de recursos de curto prazo que ajuda a manter as operações enquanto o negócio paga seus compromissos e aguarda recebimentos. Uma empresa pode precisar comprar mercadorias, pagar fornecedores e cobrir despesas antes de receber o valor das vendas, especialmente quando oferece prazo aos clientes. Esse intervalo entre pagar e receber afeta a necessidade de dinheiro disponível.\n\nPara planejar, acompanhe o fluxo de caixa, os prazos de recebimento e pagamento, o estoque e as contas a vencer. Estoque parado e atrasos de clientes podem prender recursos; negociar prazos ou organizar compras pode ajudar, desde que as condições sejam sustentáveis. Capital de giro não é sinônimo de lucro nem dinheiro sem finalidade: deve ser estimado conforme a realidade do negócio e revisto quando as vendas, custos ou prazos mudarem.",
+              "pergunta": "Para que serve o capital de giro?",
+              "opcoes": ["Manter as operações da empresa", "Comprar somente imóveis", "Substituir todas as receitas"],
+              "resposta": 0,
+              "explicacao": "O capital de giro ajuda a empresa a manter suas atividades enquanto recebe e paga compromissos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Introdução aos Investimentos",
+      "categoria": "Finanças",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Conheça renda fixa, renda variável, juros e os principais riscos dos investimentos.",
+      "imagem": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800",
+      "modulos": [
+        {
+          "titulo": "Primeiros passos",
+          "aulas": [
+            {
+              "titulo": "O que é investir?",
+              "duracao": "4 min",
+              "video": "https://www.youtube.com/watch?v=KjTUcj-Bp0o&list=PL-QAz5R5Rlm48QwcnzG-IUqzUT3bpyZik",
+              "texto": "Investir é aplicar dinheiro ou outros recursos esperando obter retorno ao longo do tempo. Cada investimento possui características próprias: forma de remuneração, prazo, possibilidade de resgate, custos, impostos e riscos. Antes de escolher, defina o objetivo (por exemplo, uma meta de longo prazo), quando poderá precisar do dinheiro e quanto de oscilação ou perda consegue tolerar. Uma opção adequada para uma pessoa pode não ser adequada para outra.\n\nOrganize primeiro o orçamento e considere a necessidade de uma reserva acessível para imprevistos. Pesquise as regras do produto e a instituição responsável em fontes oficiais, sem decidir apenas por promessas de retorno elevado ou recomendações informais. Rentabilidade passada não garante resultados futuros e todo investimento deve ser avaliado com cuidado. Este material é educativo e não constitui recomendação individual de investimento.",
+              "pergunta": "O que deve ser analisado antes de investir?",
+              "opcoes": ["Riscos, prazos e objetivos", "Somente a propaganda", "Apenas a opinião de amigos"],
+              "resposta": 0,
+              "explicacao": "Conhecer os riscos, os prazos e os objetivos ajuda a tomar decisões mais conscientes."
+            },
+            {
+              "titulo": "Conhecendo a renda fixa",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=hI6nDUsCbPc&list=PL-QAz5R5Rlm48QwcnzG-IUqzUT3bpyZik&index=2",
+              "texto": "Renda fixa é uma categoria em que as regras de remuneração são conhecidas ou seguem um indicador definido na contratação. Há aplicações prefixadas, cuja taxa é estabelecida no início, e pós-fixadas, que acompanham um indicador; também existem combinações dessas formas. CDBs e títulos públicos do Tesouro Direto são exemplos, mas cada produto tem condições, prazos e emissores próprios.\n\n“Renda fixa” não quer dizer retorno garantido em qualquer situação nem ausência de risco. O valor pode variar se houver resgate antes do vencimento, e é preciso verificar liquidez, custos, tributação, risco de crédito e eventuais mecanismos de proteção aplicáveis. Leia as condições oficiais e compare alternativas considerando quando precisará do dinheiro e qual objetivo pretende alcançar. Não escolha apenas pela taxa anunciada.",
+              "pergunta": "Qual é um exemplo de renda fixa?",
+              "opcoes": ["CDB", "Ação de uma empresa", "Criptomoeda"],
+              "resposta": 0,
+              "explicacao": "O CDB é um exemplo de investimento de renda fixa."
+            }
+          ]
+        },
+        {
+          "titulo": "Riscos e planejamento",
+          "aulas": [
+            {
+              "titulo": "O que é diversificação?",
+              "duracao": "5 min",
+              "video": "https://www.youtube.com/watch?v=DogNkkNNv5s&list=PL-QAz5R5Rlm48QwcnzG-IUqzUT3bpyZik&index=3",
+              "texto": "Diversificar significa distribuir os recursos entre investimentos que não dependam todos do mesmo emissor, setor, prazo ou fator econômico. Se todo o dinheiro estiver concentrado em uma única aplicação, um problema específico pode afetar uma parte grande do patrimônio. Uma combinação planejada pode diminuir essa concentração e tornar os resultados menos dependentes de um único acontecimento.\n\nDiversificação não garante lucro, não impede perdas e não significa comprar muitos produtos sem entender cada um. As aplicações precisam fazer sentido para seus objetivos, prazos, necessidade de acesso ao dinheiro e tolerância a riscos. Avalie também custos, impostos e possíveis relações entre os investimentos. Revise a composição quando sua situação ou seus objetivos mudarem e busque informações confiáveis antes de tomar decisões.",
+              "pergunta": "Qual é a finalidade da diversificação?",
+              "opcoes": ["Reduzir a concentração de riscos", "Garantir lucro sempre", "Eliminar qualquer possibilidade de perda"],
+              "resposta": 0,
+              "explicacao": "A diversificação ajuda a não concentrar todos os recursos em uma única aplicação."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Administração de Empresas",
+      "categoria": "Negócios",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Aprenda os conceitos de gestão, organização, planejamento e processos empresariais.",
+      "imagem": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
+      "modulos": [
+        {
+          "titulo": "Fundamentos administrativos",
+          "aulas": [
+            {
+              "titulo": "O que é administração?",
+              "duracao": "5 min",
+              "texto": "Administração é coordenar pessoas, recursos e atividades para alcançar objetivos. Um modelo bastante utilizado descreve quatro funções: planejar o que se pretende realizar, organizar tarefas e recursos, dirigir ou orientar a execução e controlar os resultados. Essas funções se relacionam e podem ser revistas continuamente, em vez de acontecerem apenas uma vez.\n\nEm uma empresa pequena, por exemplo, administrar pode envolver definir metas de atendimento, distribuir responsabilidades, acompanhar compras e verificar se os prazos e custos estão dentro do esperado. A gestão também considera comunicação, qualidade, clientes e mudanças no ambiente. Não se trata apenas de dar ordens: boas decisões dependem de informações, prioridades claras e acompanhamento para corrigir o percurso quando necessário.",
+              "pergunta": "Qual é uma função da administração?",
+              "opcoes": ["Organizar recursos e atividades", "Ignorar os resultados", "Evitar o planejamento"],
+              "resposta": 0,
+              "explicacao": "A administração organiza recursos e pessoas para atingir objetivos."
+            },
+            {
+              "titulo": "Planejamento e organização",
+              "duracao": "5 min",
+              "texto": "Planejamento transforma objetivos em ações. Primeiro, descreva o resultado esperado e um prazo; depois, identifique etapas, recursos necessários, responsáveis e possíveis obstáculos. Uma meta concreta, como reduzir atrasos nas entregas, pode ser acompanhada por indicadores e revisada periodicamente. Sem acompanhamento, um plano corre o risco de ficar apenas no papel.\n\nOrganizar é estruturar o trabalho para que as etapas possam ser realizadas: distribuir tarefas, combinar responsabilidades, disponibilizar ferramentas e estabelecer como as pessoas vão se comunicar. Deixe claro quem decide e quem precisa ser informado, especialmente em atividades compartilhadas. O planejamento define prioridades e a organização dá condições para executá-las; ambos devem ser ajustados se recursos, prazos ou necessidades mudarem.",
+              "pergunta": "O que significa organizar?",
+              "opcoes": ["Distribuir tarefas e recursos", "Não estabelecer responsabilidades", "Trabalhar sem objetivos"],
+              "resposta": 0,
+              "explicacao": "Organizar é estruturar as atividades e os recursos necessários."
+            }
+          ]
+        },
+        {
+          "titulo": "Gestão de equipes",
+          "aulas": [
+            {
+              "titulo": "A importância do trabalho em equipe",
+              "duracao": "4 min",
+              "texto": "Trabalho em equipe acontece quando pessoas coordenam conhecimentos e esforços para alcançar objetivos comuns. Para isso, é importante que as metas sejam compreendidas, as responsabilidades estejam claras e as informações necessárias circulem entre os integrantes. A colaboração permite combinar habilidades diferentes e identificar problemas que uma pessoa talvez não percebesse sozinha.\n\nUma equipe saudável também cria espaço para perguntas, feedback respeitoso e divergências tratadas com foco na solução. Reuniões objetivas, acordos sobre prazos e registro das decisões ajudam a evitar retrabalho. Cada integrante deve cumprir o que combinou e avisar com antecedência quando surgir um impedimento. Colaborar não significa concordar sempre, mas ouvir perspectivas distintas e trabalhar com responsabilidade em direção ao resultado coletivo.",
+              "pergunta": "O que fortalece uma equipe?",
+              "opcoes": ["Comunicação e colaboração", "Falta de diálogo", "Competição destrutiva"],
+              "resposta": 0,
+              "explicacao": "A comunicação e a colaboração ajudam a equipe a alcançar resultados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Excel e Planilhas",
+      "categoria": "Tecnologia",
+      "duracao": "4h",
+      "nivel": "Iniciante",
+      "descricao": "Aprenda a organizar dados, utilizar fórmulas e criar planilhas para o dia a dia.",
+      "imagem": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+      "modulos": [
+        {
+          "titulo": "Conhecendo as planilhas",
+          "aulas": [
+            {
+              "titulo": "O que é uma planilha?",
+              "duracao": "4 min",
+              "texto": "Uma planilha organiza informações em uma grade de linhas e colunas. Ela pode servir para montar um orçamento, acompanhar tarefas, registrar vendas ou comparar dados. Cada linha costuma representar um registro (como uma venda ou uma despesa), enquanto as colunas guardam campos relacionados, como data, descrição, categoria e valor. Cabeçalhos claros ajudam a entender o que cada coluna contém.\n\nAlém de armazenar dados, planilhas permitem fazer cálculos com fórmulas, ordenar e filtrar registros e criar gráficos para visualizar tendências. Antes de inserir informações, pense na estrutura e mantenha um padrão: use o mesmo formato para datas e valores e evite misturar vários tipos de informação na mesma coluna. Confira os dados e salve o arquivo em um local apropriado, especialmente se ele contiver informações importantes.",
+              "pergunta": "Como os dados são organizados em uma planilha?",
+              "opcoes": ["Em linhas e colunas", "Somente em imagens", "Apenas em parágrafos"],
+              "resposta": 0,
+              "explicacao": "Planilhas organizam informações em linhas e colunas."
+            },
+            {
+              "titulo": "Conhecendo células",
+              "duracao": "5 min",
+              "texto": "A célula é a unidade básica de uma planilha: cada uma fica no cruzamento de uma coluna com uma linha. As colunas geralmente são identificadas por letras e as linhas por números; por isso, a célula na coluna A e linha 1 é chamada A1, enquanto a célula da coluna C e linha 5 é C5. Essa referência permite localizar dados e usá-los em fórmulas.\n\nUma célula pode conter texto, números, datas ou uma fórmula. Para trabalhar com ela, selecione-a e digite o conteúdo; a barra de fórmulas também mostra ou permite editar o que foi inserido. Um intervalo é um conjunto de células, como A1:A5, que inclui as células de A1 até A5. Use cabeçalhos e formatos consistentes para que os dados fiquem fáceis de localizar e interpretar.",
+              "pergunta": "O que é uma célula?",
+              "opcoes": ["O encontro de uma linha com uma coluna", "Um arquivo de imagem", "Uma página da internet"],
+              "resposta": 0,
+              "explicacao": "A célula é a unidade básica de uma planilha."
+            }
+          ]
+        },
+        {
+          "titulo": "Fórmulas básicas",
+          "aulas": [
+            {
+              "titulo": "Aprendendo a função SOMA",
+              "duracao": "5 min",
+              "texto": "A função SOMA realiza a adição de números em células ou intervalos. Em uma planilha configurada em português, a fórmula =SOMA(A1:A5) calcula o total dos valores entre A1 e A5, incluindo as duas extremidades. Também é possível informar células separadas, conforme a sintaxe aceita pelo aplicativo. Fórmulas normalmente começam com o sinal de igual, que indica que a planilha deve calcular uma expressão.\n\nPara experimentar, coloque valores em A1, A2 e A3 e digite =SOMA(A1:A3) em outra célula. Ao alterar os valores de origem, o resultado é atualizado automaticamente. Se o total não aparecer como esperado, verifique se os valores foram reconhecidos como números, se o intervalo está correto e se a fórmula foi digitada sem erros. A função facilita somas repetidas e reduz a necessidade de recalcular manualmente.",
+              "pergunta": "Qual função pode somar valores?",
+              "opcoes": ["SOMA", "IMAGEM", "TEXTOFIXO"],
+              "resposta": 0,
+              "explicacao": "A função SOMA realiza operações de adição em uma planilha."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Comunicação Profissional",
+      "categoria": "Carreira",
+      "duracao": "3h",
+      "nivel": "Iniciante",
+      "descricao": "Desenvolva habilidades de comunicação, atendimento e relacionamento profissional.",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800",
+      "modulos": [
+        {
+          "titulo": "Comunicação no trabalho",
+          "aulas": [
+            {
+              "titulo": "A importância da comunicação",
+              "duracao": "4 min",
+              "texto": "Comunicação profissional é compartilhar informações de maneira compreensível, respeitosa e adequada ao contexto de trabalho. Ela pode acontecer em conversas, reuniões, mensagens e documentos. Antes de comunicar algo, considere quem receberá a mensagem, qual é o objetivo e quais detalhes essa pessoa precisa para agir. Organizar as ideias e usar linguagem direta ajuda a reduzir mal-entendidos.\n\nO tom também importa: seja cordial, mantenha o foco no assunto e evite expor informações confidenciais em canais inadequados. Em mensagens escritas, revise nomes, datas, anexos e pedidos antes de enviar. Se uma orientação não estiver clara, faça perguntas e confirme o entendimento. Uma comunicação eficaz inclui tanto falar ou escrever com clareza quanto ouvir, responder no momento adequado e registrar decisões importantes.",
+              "pergunta": "O que caracteriza uma boa comunicação profissional?",
+              "opcoes": ["Clareza e respeito", "Interrupções constantes", "Falta de atenção"],
+              "resposta": 0,
+              "explicacao": "Uma comunicação clara e respeitosa facilita o entendimento."
+            },
+            {
+              "titulo": "Escuta ativa",
+              "duracao": "5 min",
+              "texto": "Escuta ativa é dedicar atenção à fala da outra pessoa para compreender o conteúdo e também a necessidade por trás da mensagem. Durante a conversa, evite interromper, reduza distrações e observe o que está sendo dito. Demonstre que está acompanhando por meio de perguntas pertinentes e sinais de atenção, sem presumir que já conhece a resposta.\n\nAo final, você pode resumir com suas palavras o que entendeu e confirmar se interpretou corretamente. Essa prática é útil em reuniões, no atendimento e na resolução de problemas, porque permite esclarecer pontos antes de agir. Escutar não significa concordar com tudo: significa compreender a perspectiva apresentada e responder de forma respeitosa, com informações ou próximos passos claros.",
+              "pergunta": "O que significa praticar a escuta ativa?",
+              "opcoes": ["Ouvir com atenção e compreender", "Ignorar quem está falando", "Interromper constantemente"],
+              "resposta": 0,
+              "explicacao": "A escuta ativa exige atenção e compreensão do que está sendo comunicado."
+            }
+          ]
+        },
+        {
+          "titulo": "Atendimento profissional",
+          "aulas": [
+            {
+              "titulo": "Como atender bem um cliente?",
+              "duracao": "5 min",
+              "texto": "Um bom atendimento começa com uma recepção cordial e atenção para entender o que o cliente precisa. Faça perguntas claras, escute sem interromper e confirme o pedido antes de oferecer uma solução. Explique opções, prazos, preços e condições com transparência; se não souber uma resposta, diga que vai verificar em vez de inventar uma informação. Trate todas as pessoas com respeito, sem distinção.\n\nQuando surgir um problema, mantenha a calma, reconheça a dificuldade e explique quais providências podem ser tomadas. Registre os detalhes necessários de acordo com as regras da empresa e evite pedir dados pessoais que não sejam relevantes. Se não puder resolver imediatamente, informe quem dará continuidade e em quanto tempo haverá retorno. Um atendimento cuidadoso combina clareza, responsabilidade e acompanhamento até que o cliente saiba o que esperar.",
+              "pergunta": "Qual atitude demonstra um bom atendimento?",
+              "opcoes": ["Ouvir o cliente e buscar soluções", "Ignorar suas dúvidas", "Fornecer informações falsas"],
+              "resposta": 0,
+              "explicacao": "Ouvir e ajudar o cliente são atitudes fundamentais para um bom atendimento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Preparação para o Mercado de Trabalho",
+      "categoria": "Carreira",
+      "duracao": "3h30",
+      "nivel": "Iniciante",
+      "descricao": "Prepare-se para oportunidades profissionais com currículo, entrevistas e postura profissional.",
+      "imagem": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800",
+      "modulos": [
+        {
+          "titulo": "Preparando sua carreira",
+          "aulas": [
+            {
+              "titulo": "Como criar um currículo?",
+              "duracao": "5 min",
+              "texto": "O currículo resume informações que ajudam a empresa a avaliar a compatibilidade de uma pessoa com uma vaga. Em geral, inclui formas de contato, objetivo ou área de interesse, experiências, formação e habilidades relevantes. Organize as informações em seções, use uma linguagem simples e destaque primeiro o que tem relação com a oportunidade. Para quem está começando, projetos, cursos, atividades voluntárias e experiências escolares podem demonstrar competências quando forem pertinentes.\n\nAdapte o currículo à vaga sem inventar qualificações, resultados ou datas. Descreva suas atividades de forma concreta e revise ortografia, telefone e e-mail antes de enviar. Inclua apenas dados pessoais necessários; informações sensíveis, como documentos e endereço completo, normalmente não são necessárias na etapa inicial. Salve o arquivo com um nome profissional e em formato solicitado pelo empregador.",
+              "pergunta": "Qual característica é importante em um currículo?",
+              "opcoes": ["Informações claras e verdadeiras", "Dados inventados", "Informações sem relação com a vaga"],
+              "resposta": 0,
+              "explicacao": "Um currículo deve apresentar informações verdadeiras, organizadas e relevantes."
+            },
+            {
+              "titulo": "Preparação para entrevistas",
+              "duracao": "5 min",
+              "texto": "Preparar-se para uma entrevista ajuda a responder com mais segurança. Leia a descrição da vaga, pesquise o que a empresa faz em canais confiáveis e identifique quais experiências ou habilidades suas se relacionam com as atividades. Pense em exemplos reais de situações em que resolveu um problema, aprendeu algo ou colaborou com outras pessoas. Organize os exemplos para explicar o contexto, sua ação e o resultado, sem exagerar sua participação.\n\nPlaneje horário, trajeto ou acesso à chamada on-line e separe o que for necessário com antecedência. Durante a conversa, ouça a pergunta até o fim, responda com sinceridade e peça esclarecimento se não entender. Também é adequado fazer perguntas sobre as responsabilidades e as próximas etapas do processo. Não é preciso decorar respostas: o objetivo é apresentar sua trajetória de forma clara e conhecer melhor a oportunidade.",
+              "pergunta": "O que fazer antes de uma entrevista?",
+              "opcoes": ["Pesquisar sobre a empresa e a vaga", "Chegar sem nenhuma informação", "Inventar experiências"],
+              "resposta": 0,
+              "explicacao": "Pesquisar a empresa e conhecer a vaga ajuda a se preparar melhor."
+            }
+          ]
+        },
+        {
+          "titulo": "Desenvolvimento profissional",
+          "aulas": [
+            {
+              "titulo": "Como desenvolver novas habilidades?",
+              "duracao": "4 min",
+              "texto": "Desenvolver habilidades profissionais é um processo contínuo que combina estudo, prática e reflexão. Comece identificando o que deseja fazer melhor e quais competências são importantes para sua área ou objetivo. Escolha um próximo passo possível, como concluir um curso, praticar uma ferramenta em um projeto ou observar como alguém experiente realiza uma tarefa. Aplicar o conhecimento em situações reais ajuda a perceber o que já funciona e o que ainda precisa de atenção.\n\nPeça feedback específico a pessoas de confiança e use-o para definir ações, sem interpretar uma observação como avaliação de seu valor pessoal. Registre avanços e dificuldades, ajuste o plano e mantenha metas realistas. Algumas competências, como comunicação, organização e colaboração, também se fortalecem com a prática diária. Aprender aos poucos e demonstrar o que sabe fazer pode ampliar sua preparação para novas responsabilidades e oportunidades.",
+              "pergunta": "Qual atitude contribui para o desenvolvimento profissional?",
+              "opcoes": ["Aprender e praticar continuamente", "Evitar novos conhecimentos", "Ignorar feedbacks"],
+              "resposta": 0,
+              "explicacao": "Aprender e praticar continuamente ajuda a desenvolver competências."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
